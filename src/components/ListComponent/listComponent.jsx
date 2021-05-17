@@ -11,7 +11,7 @@ import platon from "../../images/Platon.png";
 import diane from "../../images/Diane.png";
 import '../../App.css';
 
-class PageCopy extends React.Component {
+class ListComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -166,7 +166,8 @@ class PageCopy extends React.Component {
                                     </tr>
                                 </thead>
                                 <tbody>
-
+                                    {/* Aici urmeaza sa fac mapare. Momentan sunt 5 table tr pentru design.
+                                     Componenta poate fi impartita in mai multe sub componente cand lucrez cu date dinamice. */}
                                     {/* 1 Table tr */}
                                     <tr>
                                         <th scope="row">
@@ -473,4 +474,4 @@ class PageCopy extends React.Component {
     }
 }
 
-export default PageCopy;
+export default ListComponent;

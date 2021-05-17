@@ -1,6 +1,6 @@
 import React from "react"
 import './App.css';
-import PageCopy from "./components/PageCopy/pageCopy";
+import ListComponent from "./components/ListComponent/listComponent";
 
 class App extends React.Component {
 
@@ -12,11 +12,11 @@ class App extends React.Component {
             <p className="title mt-4 mb-4">Lista de grupe</p>
           </div>
 
-          <PageCopy />
-          <PageCopy />
-          <PageCopy />
-          <PageCopy />
-          <PageCopy />
+          <ListComponent />
+          <ListComponent />
+          <ListComponent />
+          <ListComponent />
+          <ListComponent />
 
         </div>
       </div>
